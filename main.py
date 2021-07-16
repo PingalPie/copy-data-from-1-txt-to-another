@@ -15,7 +15,7 @@ def copy():
 # This is a function to copy data from input.txt and paste it in copyied.txt
 
 def editer():
-    with fi.FileInput("c:/PycharmProjects/copy_data_from_1_file_to_another/bajaj.txt", inplace=True, backup=".bak") as r:
+    with fi.FileInput("c:/PycharmProjects/copy_data_from_1_file_to_another/copyied.txt", inplace=True, backup=".bak") as r:
         for line in r:
             print(line.replace(' ', '''
 '''), end='')
