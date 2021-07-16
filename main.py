@@ -15,11 +15,11 @@ def copy():
 # This is a function to copy data from input.txt and paste it in copyied.txt
 
 def editer():
-    with fi.FileInput("c:/PycharmProjects/copy_data_from_1_file_to_another/bajaj.txt", inplace=True, backup=".backup") as r:
+    with fi.FileInput("c:/PycharmProjects/copy_data_from_1_file_to_another/bajaj.txt", inplace=True, backup=".bak") as r:
         for line in r:
             print(line.replace(' ', '''
 '''), end='')
-# This function replaces <|SPACE|> with new line
+# This function replaces <|SPACE|> with new line this will also create one backup file with extention .bak
 
 if __name__ == '__main__':
     writer()
