@@ -1,3 +1,5 @@
+# @Copyright [2021] [Yash Bajaj]
+
 import fileinput as fi
 # This module replaces the word <|SPACE|> with a new line (code line 18)
 
